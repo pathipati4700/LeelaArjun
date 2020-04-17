@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+<parameter name = "URL" value="https://demoqa.com/controlgroup/"/>
+  <parameter name = "Browser" value="Chrome"/> 
+  <test thread-count="5" name="Test1">
+    <classes>
+      <class name="seleniumQA1.ParameterizedAndCrossBrowse"/>
+       </classes>
+  </test> <!-- Test -->
+  <parameter name = "URL" value="https://demoqa.com/controlgroup/"/>
+  <parameter name = "Browser" value="Edge"/> 
+  <test thread-count="5" name="Test2">
+    <classes>
+      <class name="seleniumQA1.ParameterizedAndCrossBrowse"/>
+       </classes>
+  </test> <!-- Test -->
+  <parameter name = "URL" value="https://demoqa.com/controlgroup/"/>
+  <parameter name = "Browser" value="Ie"/> 
+  <test thread-count="5" name="Test3">
+    <classes>
+      <class name="seleniumQA1.ParameterizedAndCrossBrowse"/>
+       </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [SeniumelSuite]" guice-stage="DEVELOPMENT">
+  <test parallel="classes" name="TestNGTest(failed)">
+    <classes>
+      <class name="seleniumQA1.MallikarjunaTestNG8">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- seleniumQA1.MallikarjunaTestNG8 -->
+      <class name="seleniumQA1.MallikarjunaTestNG9">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- seleniumQA1.MallikarjunaTestNG9 -->
+      <class name="seleniumQA1.MallikarjunaTestNG1">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- seleniumQA1.MallikarjunaTestNG1 -->
+      <class name="seleniumQA1.MallikarjunaTestNG4">
+        <methods>
+          <include name="fillContactForm"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- seleniumQA1.MallikarjunaTestNG4 -->
+      <class name="seleniumQA1.MallikarjunaTestNG12">
+        <methods>
+          <include name="clickItems"/>
+          <include name="dragAndDrop"/>
+          <include name="afterMethod"/>
+          <include name="datePicker"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- seleniumQA1.MallikarjunaTestNG12 -->
+      <class name="seleniumQA1.MallikarjunaTestNG2">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="clickItems"/>
+        </methods>
+      </class> <!-- seleniumQA1.MallikarjunaTestNG2 -->
+      <class name="seleniumQA1.MallikarjunaTestNG3">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- seleniumQA1.MallikarjunaTestNG3 -->
+      <class name="seleniumQA1.MallikarjunaTestNG6">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- seleniumQA1.MallikarjunaTestNG6 -->
+      <class name="seleniumQA1.MallikarjunaTestNG13">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- seleniumQA1.MallikarjunaTestNG13 -->
+      <class name="seleniumQA1.MallikarjunaTestNG10">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- seleniumQA1.MallikarjunaTestNG10 -->
+      <class name="seleniumQA1.MallikarjunaTestNG7">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- seleniumQA1.MallikarjunaTestNG7 -->
+      <class name="seleniumQA1.MallikarjunaTestNG5">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- seleniumQA1.MallikarjunaTestNG5 -->
+      <class name="seleniumQA1.MallikarjunaTestNG11">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- seleniumQA1.MallikarjunaTestNG11 -->
+    </classes>
+  </test> <!-- TestNGTest(failed) -->
+</suite> <!-- Failed suite [SeniumelSuite] -->

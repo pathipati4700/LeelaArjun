@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-10T16:47:03Z" name="Suite" finished-at="2020-04-10T16:48:09Z" duration-ms="66281">
+    <groups>
+    </groups>
+    <test started-at="2020-04-10T16:47:03Z" name="Test" finished-at="2020-04-10T16:48:09Z" duration-ms="66281">
+      <class name="seleniumQA1.NewTest1">
+        <test-method signature="f()[pri:0, instance:seleniumQA1.NewTest1@471a9022]" started-at="2020-04-10T22:17:03Z" name="f" finished-at="2020-04-10T22:18:09Z" duration-ms="66241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- seleniumQA1.NewTest1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

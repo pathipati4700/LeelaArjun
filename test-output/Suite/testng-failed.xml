@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="https://demoqa.com/controlgroup/"/>
+  <parameter name="Browser" value="IE"/>
+  <test parallel="tests" name="Test1(failed)">
+    <classes>
+      <class name="seleniumQA1.ParameterizedAndCrossBrowse">
+        <methods>
+          <include name="carRental"/>
+          <include name="launchApplication"/>
+          <include name="launchApplication"/>
+          <include name="launchApplication"/>
+          <include name="closebrowser"/>
+          <include name="closebrowser"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- seleniumQA1.ParameterizedAndCrossBrowse -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test parallel="tests" name="Test2(failed)">
+    <classes>
+      <class name="seleniumQA1.ParameterizedAndCrossBrowse">
+        <methods>
+          <include name="carRental"/>
+          <include name="launchApplication"/>
+          <include name="launchApplication"/>
+          <include name="launchApplication"/>
+          <include name="closebrowser"/>
+          <include name="closebrowser"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- seleniumQA1.ParameterizedAndCrossBrowse -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test parallel="tests" name="Test3(failed)">
+    <classes>
+      <class name="seleniumQA1.ParameterizedAndCrossBrowse">
+        <methods>
+          <include name="carRental"/>
+          <include name="launchApplication"/>
+          <include name="launchApplication"/>
+          <include name="launchApplication"/>
+          <include name="closebrowser"/>
+          <include name="closebrowser"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- seleniumQA1.ParameterizedAndCrossBrowse -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [Suite] -->
